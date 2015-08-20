@@ -2,22 +2,31 @@
 //  main.cpp
 //  Sum In Loop
 //
-//  Created by Lejendary on 8/1/15.
-//  Copyright (c) 2015 Lejendary. All rights reserved.
+//  Created by JLegendary on 8/20/15.
+//  Copyright (c) 2015 JLegendary. All rights reserved.
+//   JLegendary@me.com
 //
 
 
-/*
-Input data:
- first line contains N - amount of values to sum
- second line contains N values itself
- 
-Answer:
- Should contain a single value- the sum of N values
+#include<iostream>
 
-*/
-
-
-
-#include <iostream>
-using namespace std;
+int main()
+{
+    int amountValue;
+    int values;
+    int valueSum;
+    
+    std::cout << "Input the amount of value to add, then values: \n";
+    std::cin >> amountValue;
+    
+    while(amountValue>0)
+    {
+        std::cin >> values;
+        valueSum += values;
+        amountValue--;
+    }
+    
+    std::cout<< "Total is " << valueSum << std::endl;
+    
+    return 0;
+}
