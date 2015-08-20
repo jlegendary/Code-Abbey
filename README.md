@@ -2,7 +2,7 @@
 
 Code Abbey Solutions
 
-| # | Problem | Solution| 
+| # | Problem | Solution | 
 |----|-------------------|----------------------|
 
 |1| Sum "A+B" | [C++](001/main.cpp)
