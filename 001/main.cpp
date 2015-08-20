@@ -1,3 +1,13 @@
+//
+//  main.cpp
+//   Sum "A+B"
+//
+//  Created by JLegendary on 8/20/15.
+//  Copyright (c) 2015 JLegendary. All rights reserved.
+//   JLegendary@me.com
+//
+
+
 #include <iostream>
 using namespace std;
 
