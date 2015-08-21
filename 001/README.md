@@ -9,10 +9,8 @@ Sum two numbers and output the result
 
 
 >
->Example:
->
->	<br/> input data:
->	  3 5
->
->   <br/> answer:
->	  8
+Example:
+&nbsp;input data:
+&nbsp;&nbsp;3 5
+&nbsp;answer:
+&nbsp;&nbsp;8
